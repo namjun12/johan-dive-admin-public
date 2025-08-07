@@ -1,0 +1,66 @@
+<div class="header-wrap">
+  <img src="/images/main_logo.png" alt="SafetyON" class="header-logo" />
+
+  <div class="menu-wrap row-group">
+    <div class="gnb">
+      <div class="gnb-item">
+        <a href="#" class="item-default">대시보드</a>
+      </div>
+      <div class="gnb-item">
+        <a href="#" class="item-default">관리자</a>
+      </div>
+      <div class="gnb-item">
+        <a href="/popup.html" class="item-default">팝업</a>
+      </div>
+      <div class="gnb-item">
+        <a href="/schedule.html" class="item-default">일정표</a>
+      </div>
+
+      <div class="gnb-item">
+        <div class="item-default">
+          포인트&갤러리
+          <i class="x-icon icon-down"></i>
+        </div>
+        <div class="sub-gnb row-group">
+          <a href="#" class="sub-gnb-item"> 다이빙 포인트 </a>
+          <a href="#" class="sub-gnb-item">동영상</a>
+          <a href="#" class="sub-gnb-item">갤러리</a>
+        </div>
+      </div>
+      <div class="gnb-item">
+        <div class="item-default">
+          커뮤니티
+          <i class="x-icon icon-down"></i>
+        </div>
+        <div class="sub-gnb row-group">
+          <a href="#" class="sub-gnb-item">문의하기</a>
+          <a href="#" class="sub-gnb-item">예약하기</a>
+          <a href="#" class="sub-gnb-item">고객후기</a>
+          <a href="#" class="sub-gnb-item">공지사항</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-btm">
+      <div class="coworkerweb_logo_Wrap">
+        <img src="./images/coworkerweb_logo.png" alt="" />
+      </div>
+      <p class="copy-txt">
+        Copyright 2025 JOHANDIVE
+        <br />
+        All rights reserved.
+      </p>
+    </div>
+    <a href="/Login.html" class="logout-btn">
+      <i class="x-icon"></i>
+      로그아웃
+    </a>
+  </div>
+</div>
+
+<script>
+  $(".gnb-item").click(function () {
+    $(this).toggleClass("active");
+    $(this).find(".icon-down").toggleClass("rotated");
+  });
+</script>

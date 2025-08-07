@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/src/output.css" />
+  </head>
+  <body>
+    <div class="popup-page-container">
+      <div class="title_type01">
+        <div class="le_wrap">
+          <h3 class="title">팝업 관리</h3>
+        </div>
+        <div class="ri_wrap">
+          <div class="control-whole-wrap">
+            <div class="product-search-wrap">
+              <div
+                class="overflow-hidden flex items-center h-12 border-1 border-gray-200 rounded-md pl-4"
+              >
+                <select
+                  id="search-type"
+                  class="w-20 pr-5 mr-5 border-r-1 border-gray-200"
+                >
+                  <option value="">제목</option>
+                  <option value="">내용</option>
+                </select>
+                <input
+                  id="search-input"
+                  class="w-70 h-full"
+                  type="text"
+                  placeholder="검색어를 입력해 주세요."
+                />
+                <button style="background-color: #000" class="w-12 h-full">
+                  <i class="text-white"></i>
+                </button>
+              </div>
+              <div class="data-control-wrap">
+                <button class="selected-data-delete">선택 삭제</button>
+                <a
+                  class="selected-data-apply flex-center"
+                  href="/adm_create.html"
+                  >등록</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
